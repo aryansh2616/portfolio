@@ -135,7 +135,7 @@ export default function Projects() {
                             <p className="text-gray-400 text-sm mb-4 line-clamp-2">
                                 {project.description}
                             </p>
-                            <div className="flex space-x-4 mt-auto">
+                            {/* <div className="flex space-x-4 mt-auto">
                                 <a
                                     href={project.github}
                                     target="_blank"
@@ -154,7 +154,7 @@ export default function Projects() {
                                     <FaExternalLinkAlt />
                                     <span>Live Demo</span>
                                 </a>
-                            </div>
+                            </div> */}
                         </motion.div>
                     ))}
                 </div>
@@ -189,7 +189,7 @@ export default function Projects() {
                             />
                             <h3 className="text-3xl font-bold mb-4 text-blue-400">{selectedProject.name}</h3>
                             <p className="text-gray-300 text-lg mb-6 leading-relaxed">{selectedProject.description}</p>
-                            <div className="flex space-x-6">
+                            {/* <div className="flex space-x-6">
                                 <a
                                     href={selectedProject.github}
                                     target="_blank"
@@ -208,7 +208,7 @@ export default function Projects() {
                                     <FaExternalLinkAlt />
                                     <span>Live Demo</span>
                                 </a>
-                            </div>
+                            </div> */}
                         </motion.div>
                     </motion.div>
                 )}

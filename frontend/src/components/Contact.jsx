@@ -46,7 +46,7 @@ export default function Contact() {
         className="grid md:grid-cols-2 gap-16 items-start"
       >
         {/* Left side – Contact info */}
-        <div className="space-y-6 mt-20">
+        <div className="space-y-6 mt-0 md:mt-20">
           <p className="text-3xl sm:text-4xl font-bold mb-6 text-blue-400">
             Contact Me
           </p>

@@ -78,7 +78,7 @@ export default function Certification() {
               <img
                 src={src}
                 alt={`Certificate ${index + 1}`}
-                className="w-full h-full object-cover"
+                className=" md:w-full md:h-full object-cover"
               />
             )}
           </motion.div>
